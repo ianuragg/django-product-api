@@ -28,7 +28,8 @@ INSTALLED_APPS = [
     #Apps
     'api',
     #External Packages
-    'rest_framework'
+    'rest_framework',
+    'drf_yasg'
 ]
 
 MIDDLEWARE = [
