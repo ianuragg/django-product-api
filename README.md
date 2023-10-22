@@ -5,8 +5,9 @@ This is a Django project that provides a RESTful API for managing products. You 
 ## Requirements
 
 - Python 3.8 or higher
-- Django 3.2 or higher
+- Django 4.2 or higher
 - Django REST Framework 3.12 or higher
+- drf-yasg 1.21.7
 
 ## Installation
 
@@ -25,6 +26,7 @@ This project includes two versions of views: function based views and class base
 
 You can use any HTTP client to interact with the API endpoints. Here are some examples using curl:
 
+- To get the API documentation: `http://localhost:8000/`
 - To get a list of all products: `curl http://localhost:8000/products/`
 - To get a single product by id: `curl http://localhost:8000/products/1/`
 - To create a new product: `curl -X POST -H "Content-Type: application/json" -d '{"name": "New Product", "price": 9.99, "category": "New Category", "description": "New Description"}' http://localhost:8000/products/`
