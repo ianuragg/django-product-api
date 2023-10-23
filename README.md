@@ -8,6 +8,7 @@ This is a Django project that provides a RESTful API for managing products. You 
 - Django 4.2 or higher
 - Django REST Framework 3.12 or higher
 - drf-yasg 1.21.7
+- Database MySql
 
 ## Installation
 
